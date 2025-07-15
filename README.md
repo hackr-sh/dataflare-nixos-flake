@@ -26,6 +26,14 @@ home.packages = with pkgs; [
   inputs.dataflare.packages.x86_64.default
   ...
 ];
+
+# or 
+
+environment.systemPackages = with pkgs; [
+  ...
+  inputs.dataflare.packages.x86_64.default
+  ...
+];
 ```
 
 ## Todo:
