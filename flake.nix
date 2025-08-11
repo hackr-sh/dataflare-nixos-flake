@@ -30,11 +30,11 @@
       {
         packages.default = pkgs.stdenv.mkDerivation rec {
           pname = "dataflare";
-          version = "2.2.0";
+          version = "2.2.1";
 
           src = pkgs.fetchurl {
             url = "https://assets.dataflare.app/release/linux/x86_64/Dataflare-${version}.AppImage";
-            hash = "sha256-xAnfLVhLNmEbKuplF44LefZ7w3Y1l/qi/2PD3jfdwwQ=";
+            hash = "sha256-1OgOeIocKdIpQ+Jr9PzeJVJPzekgyK9vrKjy7ZCRt0Y=";
           };
 
           nativeBuildInputs = with pkgs; [
