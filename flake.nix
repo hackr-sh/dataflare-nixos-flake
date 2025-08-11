@@ -21,7 +21,7 @@
           dbus
           openssl
           librsvg
-          libsoup_2_4
+          libsoup_3
           libappindicator-gtk3
           libayatana-appindicator
         ];
